@@ -1,6 +1,8 @@
 # Introduction
 
-## Simple figure
+## Test
+
+In recent years the number of cars on the road has been on a slow increase, due to more affordable ways in manufacturing them. With the increase of vehicles among the road car related incidents are on the rise also. According to a study done by the Road Safety Authority (RSA) they reported an 6\% increase in the number of people that died on Irish roads during the year of 2020. 
 
 Here is a simple figure.
 
