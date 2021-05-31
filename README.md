@@ -1,4 +1,4 @@
-pandoc-thesis-template
+My Thesis
 ======================
 
 A template for creating a degree project thesis in markdown + pandoc
