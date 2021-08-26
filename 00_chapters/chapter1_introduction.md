@@ -8,7 +8,7 @@ According to a study conducted by the RSA based in Ireland during the period of 
  
  
  
-![Fatalities by year](03_figures/introduction/octocat.png)
+![Fatalities by year](03_figures/introduction/Road_Deaths.png)
  
 You can cite the figure in the text (to match the automatic figure numbering). See Figure \ref{octodog} for a dog version of an octopus!
  
