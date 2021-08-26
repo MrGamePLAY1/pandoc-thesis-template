@@ -4,15 +4,15 @@
 
 In recent years the number of cars on the road has been on a slow increase, due to more affordable ways of manufacturing them. With the increase of vehicles on the road car-related incidents are on the rise also. 
 
-According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase of fatalities compared to provisional Garda data collected for the year of 2018 [@RSA_2021].
+According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase of fatalities compared to provisional Garda data collected for the year of 2019 [@RSA_2021].
 
-Here is a simple figure.
 
-![Github's famous 'Octocat'!](03_figures/introduction/octocat.png)
+
+![Fatalities by year](03_figures/introduction/octocat.png)
 
 You can cite the figure in the text (to match the automatic figure numbering). See Figure \ref{octodog} for a dog version of an octopus!
 
-![Lokikaze's Octodog. \label{octodog}](03_figures/introduction/octo_dog__mspaint_by_lokikaze-d32qx0s_small.png)
+![Lokikaze's Octodog. \label{octodog}](03_figures/introduction/Road_Deaths.png)
 
 (Thanks to Lokikaze for publishing this image on [Deviant Art](http://lokikaze.deviantart.com/art/Octo-Dog-MSPaint-186013612))
 
