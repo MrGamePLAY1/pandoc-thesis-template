@@ -1,9 +1,9 @@
-\newcommand\titleLineOne{Why is there no butter in the fridge}
+\newcommand\titleLineOne{Investigating Lane Assist Technologies and implementing methodologies to recreate this technology.}
 \newcommand\titleLineTwo{(I don't want to walk to the shops)}
-\newcommand\thesisAuthor{Charlotte Smith}
+\newcommand\thesisAuthor{Craig Sheehy}
 \newcommand\supervisor{Dr. Matt Smith}
 \newcommand\degree{B.Sc. (Hons) in Science in Computing}
-\newcommand\thesisYear{2020}
+\newcommand\thesisYear{2021}
 \newcommand\institution{TU Dublin}
 \newcommand\address{Dublin, Ireland}
 \begin{titlepage}

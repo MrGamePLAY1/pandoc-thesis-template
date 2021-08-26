@@ -1,8 +1,10 @@
 # Introduction
 
-## Test
+## Background
 
-In recent years the number of cars on the road has been on a slow increase, due to more affordable ways in manufacturing them. With the increase of vehicles among the road car related incidents are on the rise also. According to a study done by the Road Safety Authority (RSA) they reported an 6\% increase in the number of people that died on Irish roads during the year of 2020. 
+In recent years the number of cars on the road has been on a slow increase, due to more affordable ways of manufacturing them. With the increase of vehicles on the road car-related incidents are on the rise also. 
+
+According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase of fatalities compared to provisional Garda data collected for the year of 2018 [@RSA_2021].
 
 Here is a simple figure.
 

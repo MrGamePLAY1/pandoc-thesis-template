@@ -1,9 +1,11 @@
 \chapter{Abstract}
 
-GUIDE TO STUDENTS: An abstract is a brief overview of the project. Ideally it should fit onto a single page.
+This project spearheads the problems of poor human driving habits by building software that tracks the users' position on the road, identifying the lane lines and accurately track them and plot indicative lines for the user to follow. 
 
-This project tackled the problem of creating a computer-based tool to model and manipulate music. The problem to be solved was how to create a computer tool that is easy to use but that also allows for non-trivial musical actions to be made on the computer. In this report a description is presented of the specification and analysis of the problem, the review of relevant research conducted, and the life cycle of the system that was developed to solve the problem.
+The problem with this project was how to build a software that could seamlessly work in tandem with a user operating a car and not interact with the user's steering wheel but to recommend correction suggestions, that would alert them to alter their position on the road. 
 
-Key features of the developed system, called “Pitch Circles”, including its basis in a respected music theory, its development in an object-oriented programming language – Java 2, and the evaluation of the system from an HCI (Human Computer Interaction) perspective, in additional to more traditional functional testing.
+Independent research and analysis were gathered on the best ways to develop an effective approach to tackle this specific problem using the most efficient methods to gather and process such huge amounts of data. 
 
-The result is a simple, but powerful tool for basic musical tasks, that is easy to learn while elegantly modelling the symmetric and asymmetric features of the Western Diatonic music system. With the Pitch Circles tool novices users can identify the relationship between triadic chords and different regions (scales), and use simple rules for movement around the tonal circles to derive and apply fundamental musical principles including the chromatic and diatonic circles of fifths.
+Key features in the development of this project include heavy use of 'Unity Game Engine' as scenes were specifically created by the user as test scenarios for the project on how well it would perform. 
+
+The result is a simple way a car in theory drives itself along the road. 
