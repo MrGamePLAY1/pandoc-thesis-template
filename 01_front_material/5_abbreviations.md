@@ -1,7 +1,7 @@
 \chapter{List of Abbreviations}
 
-**ROI** \doublespacing Region of interest
+**ROI** --- Region of interest
 
-**XX** \doublespacing xxxxxxxxxxxxx
+**NHTSA** --- National highway transportation safety administration
 
-**XX** \doublespacing xxxxxxxxxxxxx
+**XX** --- xxxxxxxxxxxxx

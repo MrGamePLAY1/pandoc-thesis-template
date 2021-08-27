@@ -10,86 +10,37 @@ According to a study conducted by the RSA based in Ireland during the period of 
  
 ![Fatalities by year](03_figures/introduction/Road_Deaths.png)
  
-You can cite the figure in the text (to match the automatic figure numbering). See Figure \ref{octodog} for a dog version of an octopus!
- 
- 
-(Thanks to Lokikaze for publishing this image on [Deviant Art](http://lokikaze.deviantart.com/art/Octo-Dog-MSPaint-186013612))
- 
-Here is a bulleted list using minus-signs before each item:
- 
-- apples
-- pears
-- bananas
- 
-Here is a numbered list using `1. ` before each item:
- 
-1. blue
-1. green
-1. yellow
-1. gold
- 
-here is some code inline using backticks:. A good loop is `foreach`
- 
-here are some lines of code using indentation
- 
-	foreach($cars as $car){
-		print $car->getRegistration();
-	}
- 
-To get better syntax highlighing you can triple backtick code blocks and state the language:
- 
-```php
-foreach($cars as $car){
-	print $car->getRegistration();
-}
-```
- 
-You need to insert empty lines at the end of each section.....  
- 
-## Other great books
- 
-There are some great books out here, e.g. see [@hitch_hikers_guide].
- 
-If you want to learn about Unity game programming try a cookbook [@smith2018].
- 
-Another sentence typed here.
- 
-## Example of a Table
- 
-Below see Table \ref{hugh_et_al}, for a list tech things, and in the Markdown source how to create such a table.
- 
-<!-- ***************************************************** -->
-<!-- ****************** start of table ******************* -->
-<!-- ***************************************************** -->
-Table: Description of some computing techy things. \label{hugh_et_al}
- 
- 
-Item                 | Description                              | hrs   | rate
----------------------|------------------------------------------|-------|----
-Hugo Installation    | Static HTML site generator               | 2     | 180
-Database Integration | Testing of data structures               | 2     | 180
-SCORM integration    | Connecting to Moodle                     | 6     | 180
-Design and CSS       | Design of web page front-end             | 4     | 180
-Testing and Tuning   | Ensuring that components are functional  | 3     | 180
-                     | Subtotals                                |       |
-                     | Discount                                 |       |    
-                     | Total (ex. GST)                          |       |
-                     | Total (inc. GST)                         |       |
- 
-<!-- ***************************************************** -->
- 
-See Figure \ref{md_tables} for how to create tables using MarkDown and a little bit of LaTeX.
- 
-![MarkDown source code for tables. \label{md_tables}](03_figures/introduction/tables_markdown.png)
- 
-## Free Online TableConvert.com
- 
-If you don't want to edit tables manually in MarkDown, a great free online tool that will do this for you is TableConvert. See Figure \ref{table_convert}.
- 
-- [https://tableconvert.com/?import=example](https://tableconvert.com/?import=example)
- 
-![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png){ width=75% }
- 
+The (NHTSA) National Highway Transportation Safety Administration discovered that roughly 94% - 96% of all car-related crashes are down to some type of human error. Meanwhile, other studies suggest that that figure is somewhere around the 90% range. [@lc_2020]
+
+Through a deeper investigation and analysis into this claim, it is found that a high percentage of crashes could of be adverted, as the majority of incidents reported were down to specific driver behavior in a given situation. Most of the accidents that were recorded would fall under a number of categories such as:
+
+* Aggressive / Dangerous Driving
+* Distracted Driving
+* Drug / Drunk Driving
+* Speeding
+* Fatigued Driving
+
+### Aggressive / Dangerous Driving
+
+In today's version of the world with cities expanding and areas becoming more and more populated, everyone is in a rush trying to get to work or one place to another and the slightest inconvenience to someone's day could enrage them which could lead to dangerous or aggressive driving from that particular user. 
+
+### Speeding
+
+According to a study conducted by the (NHTSA) National Highway Transportation Safety Administration, more than 9,000 worldwide people are killed each year due to excessive speeding. [@lc_2020]
+
+As a road user myself I have foreseen that speeding is a common practice undertaken by other road users. It is difficult not to 'normalise' speeding since it appears to be a victimless crime until it goes wrong, and when it goes wrong it could lead to a catastrophic result. It endangers everyone in the vicinity as it increases the braking distance for the vehicle but simultaneously decreases the distance from any approaching obstacles, you are effectively burning the candle at both ends. [@lc_2020] 
+
+### Distracted Driving
+
+With the ability to have everything on your phone in this modern era such as emails, video calls and the ability to watch videos, you can see how much of a temptation it is for a driver to operate a vehicle and mobile device at the same time. It is common to see a user operate a mobile device while driving a vehicle and can have very serious consequences if caught doing so, but users still take the risk. 
+
+### Drug / Drunk Driving
+
+It is estimated in America that under the influence related crashes cost American tax payers $44 billion each year. [@lc_2020] And that during a 15 year study conducted by S. News & World discovered that 37% of all fatal car related crashes included at least one occupated that was intoxicated. [@lc_2020]   
+
+### Fatigued Driving
+
+A survey done by (NSF) Nation Sleep Foundation discovered that 41% of all drivers interviewed admitted to falling asleep at the wheel atleast once in their life, and that 10% reported it occured within the past year. [@lc_2020] 
  
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
