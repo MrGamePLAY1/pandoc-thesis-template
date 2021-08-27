@@ -12,7 +12,6 @@ According to a study conducted by the RSA based in Ireland during the period of 
  
 You can cite the figure in the text (to match the automatic figure numbering). See Figure \ref{octodog} for a dog version of an octopus!
  
-![Lokikaze's Octodog. \label{octodog}](03_figures/introduction/Road_Deaths.png)
  
 (Thanks to Lokikaze for publishing this image on [Deviant Art](http://lokikaze.deviantart.com/art/Octo-Dog-MSPaint-186013612))
  
