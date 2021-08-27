@@ -1,7 +1,7 @@
 \chapter{List of Abbreviations}
 
-**ROI** ·· Region of interest
+**ROI** \doublespacing Region of interest
 
-**XX** ·· xxxxxxxxxxxxx
+**XX** \doublespacing xxxxxxxxxxxxx
 
-**XX** ·· xxxxxxxxxxxxx
+**XX** \doublespacing xxxxxxxxxxxxx

@@ -60,7 +60,7 @@ Raspberry Pi with aid of the Pi Camera. [@RJa18]
 A paper written by Wael Farag and Zakaria Saleh talk about a LaneRTD (Lane Real-Time
 Detection) software that they developed, this system was developed with the idea of being cost-effective for the end-user, it demonstrates the low computational cost of developing such software
 but achieving an end goal also, which is to provide a low-cost effective solution for lane detection
-device. [@Sal18]S
+device. [@Sal18]
 
 It shows the potential future of the advancing technology as the paper talks about how the same
 goal was achieved using a single CCD camera. The authors mention that approaches in other
