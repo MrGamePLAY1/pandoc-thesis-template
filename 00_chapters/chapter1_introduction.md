@@ -32,15 +32,15 @@ As a road user myself I have foreseen that speeding is a common practice underta
 
 ### Distracted Driving
 
-With the ability to have everything on your phone in this modern era such as emails, video calls and the ability to watch videos, you can see how much of a temptation it is for a driver to operate a vehicle and mobile device at the same time. It is common to see a user operate a mobile device while driving a vehicle and can have very serious consequences if caught doing so, but users still take the risk. 
+With the ability to have everything on your phone in this modern era such as emails, video calls, and the ability to watch videos, you can see how much of a temptation it is for a driver to operate a vehicle and mobile device at the same time. It is common to see a user operate a mobile device while driving a vehicle and can have very serious consequences if caught doing so, but users still take the risk. 
 
 ### Drug / Drunk Driving
 
-It is estimated in America that under the influence related crashes cost American tax payers $44 billion each year. [@lc_2020] And that during a 15 year study conducted by S. News & World discovered that 37% of all fatal car related crashes included at least one occupated that was intoxicated. [@lc_2020]   
+It is estimated in America that under the influence related crashes cost American taxpayers $44 billion each year. [@lc_2020] And that during a 15-year study conducted by S. News & World discovered that 37% of all fatal car-related crashes included at least one occupated that was intoxicated. [@lc_2020]   
 
 ### Fatigued Driving
 
-A survey done by (NSF) Nation Sleep Foundation discovered that 41% of all drivers interviewed admitted to falling asleep at the wheel atleast once in their life, and that 10% reported it occured within the past year. [@lc_2020] 
+A survey done by (NSF) Nation Sleep Foundation discovered that 41% of all drivers interviewed admitted to falling asleep at the wheel at least once in their life and that 10% reported it occurred within the past year. [@lc_2020] Even if the driver didn't fall asleep driving fatigued is like driving drunk, your reaction times are slowed and your vision is reduced.  
  
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
