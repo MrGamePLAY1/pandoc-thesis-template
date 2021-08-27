@@ -1,5 +1,5 @@
 \newcommand\titleLineOne{Investigating Lane Assist Technologies and implementing methodologies to recreate this technology.}
-\newcommand\titleLineTwo{(I don't want to walk to the shops)}
+\newcommand\titleLineTwo{}
 \newcommand\thesisAuthor{Craig Sheehy}
 \newcommand\supervisor{Dr. Matt Smith}
 \newcommand\degree{B.Sc. (Hons) in Science in Computing}
