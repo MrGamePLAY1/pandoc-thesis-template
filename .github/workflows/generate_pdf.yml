@@ -20,8 +20,13 @@ jobs:
         break_____________________
         00_chapters/chapter0_chaprtersStartHere.md
         00_chapters/chapter1_introduction.md
-        00_chapters/chapter2_extra_results.md
-        00_chapters/chapter3_litReview.md
+        00_chapters/chapter2_litReview.md
+        00_chapters/chapter3_methodology.md
+        00_chapters/chapter4_systemRequirements.md
+        00_chapters/chapter5_systemDesign.md
+        00_chapters/chapter6_results.md
+        00_chapters/chapter7_conclusions.md
+        00_chapters/chapter8_futureWork.md
         break_____________________
         04_appendices/0_appendices.md
         04_appendices/A_software_tools.md

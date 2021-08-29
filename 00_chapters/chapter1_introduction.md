@@ -41,7 +41,37 @@ It is estimated in America that under the influence related crashes cost America
 ### Fatigued Driving
 
 A survey done by (NSF) Nation Sleep Foundation discovered that 41% of all drivers interviewed admitted to falling asleep at the wheel at least once in their life and that 10% reported it occurred within the past year. [@lc_2020] Even if the driver didn't fall asleep driving fatigued is like driving drunk, your reaction times are slowed and your vision is reduced.  
+
+## Lane Keeping Assist Systems
  
+ From the evidence pointed out above a system needed to be implemented to reduce the number of car-related incidents globally. This was known as (LKAS) Lane Keeping Assist System and was brought to the market in the year 2001. [@continental] The aim behind the technology is to prevent, easily preventable car-related incidents, such as driver fatigue, drug driving, distracted driving, and so on. The first car seen with an (LKAS) system on the market was seen with Nissan Motors as they revealed the first version of the technology in the most luxurious vehicle they offered at the time, the Nissan Cima.
+
+The main function behind the LKAS system is to ensure a user of a vehicle can safely travel in between lanes and prevent accidental lane departure from user error or fatigue, it does this by slightly intervening steering if the technology notices the car is drifting horizontally. [@continental]
+
+Since the introduction of this technology, it is estimated to reduce car-related fatalities by 12%. [@ncap_2011] The systems vary on how they work from car manufacturers, but the concept still remains the same. A combination of a camera and the infrared beam is located just behind where the front rearview mirror is located. This unit together can read any road markings and detect the distance of any car in front. With the ability to detect the road markings on the road as it sees it the camera can
+distinguish behind solid white lines and broken lines. If a solid white line is detected an audible
+sound will play, letting the operator of the vehicle know that they are passing this line, or a
+message will be displayed on their Heads-Up Display (HUD). [@continental]
+
+The current issue with LKAS systems is the fact that they have strict parameters which don't suit all drivers with their habits. Some drivers prefer driving closer to the centerline, some like driving directly in the middle of their given lane, and some drivers prefer to drive on the outside of the lane. This can throw off any calculated percentages for the users' position on the road and may alter the driver to false indications of wrong lane positioning, which could cause a premature intervention by software to adjust the users' position on the road to what it thinks would be more suitable, which causes a real danger on the road. A better approach for this software is for the software to learning the driving patterns of the intended user and save that to a given profile the user can select before taking off on journeys, this way the software would identify false indications by prompting questions to the user when they drive in a 'dangerous' determined by the system. 
+
+Another issue known by the current LKAS systems is the fact that if there are poorly marked roads or for example construction zones on the road, Infiniti a car manufacturing company and user of LKAS systems stated that *"if there are no lane markers, or the system is not able to recognise the lines, the system will not function effectively"*. [@ncap_2011]
+
+
+## Motivation
+
+Currently, with regards to safety among the roads, there are implementations of lane assistant
+technologies already available in today's models of vehicle, which track the users' position between
+road markings and can affectively stop or adjust the position of a vehicle traveling at speed, but
+this technology is considered a “technology upgrade” and costs thousands to place into a vehicle,
+adding sensors, cameras, accelerometers, and so on. 
+
+My project aims to produce similar results that current technology provides but at a fraction of
+the price is free to use for anyone who already drives with an on-body camera attached to their
+vehicle. The motivation behind completing this project is to improve road safety among current
+and future road users by making a driver more aware of how they are driving their vehicle with
+regards to lane markings and distance between objects and cars in front of them.
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
 -->

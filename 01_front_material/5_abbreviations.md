@@ -5,3 +5,5 @@
 **NHTSA** --- National highway transportation safety administration
 
 **NSF** --- National Sleep Foundation
+
+**LKAS** --- Lane Keeping Assist System

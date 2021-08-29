@@ -1,4 +1,4 @@
-\newcommand\titleLineOne{Investigating Lane Assist Technologies and implementing methodologies to recreate this technology.}
+\newcommand\titleLineOne{Investigating Lane Assist Technologies and implementing methodologies to recreate this technology based on poor driving behaviour}
 \newcommand\titleLineTwo{}
 \newcommand\thesisAuthor{Craig Sheehy}
 \newcommand\supervisor{Dr. Matt Smith}
