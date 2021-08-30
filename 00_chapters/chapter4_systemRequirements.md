@@ -1,3 +1,3 @@
-# System Requirements & Specifications
+# System Requirements and Specifications
 
 ## Introduction
