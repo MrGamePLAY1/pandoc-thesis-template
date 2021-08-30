@@ -7,3 +7,7 @@
 **NSF** --- National Sleep Foundation
 
 **LKAS** --- Lane Keeping Assist System
+
+**PSN** --- Play Station Network
+
+**OOP** --- Object Orientated Programming
