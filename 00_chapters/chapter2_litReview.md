@@ -92,7 +92,8 @@ software thought the road markings were, placing them in incorrect locations. Wh
 in the paper to help reduce these complicated confusions are trying to add better-suited FIR parameters,
 and *“trying different low pass polynomials like Butterworth, Chebychev, Ellipitcal, etc..”* [@Sal18]. 
 The FIR filter is used to help reduce jitter on the indicators on the left and right lanes.
-### Conclusion of review 
+
+## Conclusion 
 
 To conclude my review of five different papers relating to my subject of lane assistive technologies
 I feel I have a greater understanding of the subject as a whole. Reviewing the problems faced in
