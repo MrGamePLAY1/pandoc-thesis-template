@@ -22,7 +22,7 @@ jobs:
         00_chapters/chapter1_introduction.md
         00_chapters/chapter2_litReview.md
         00_chapters/chapter3_methodology.md
-        00/chapters/chapter4_systemRequirements.md
+        00_chapters/chapter4_systemRequirements.md
         00_chapters/chapter5_systemDesign.md
         00_chapters/chapter6_results.md
         00_chapters/chapter7_conclusions.md
