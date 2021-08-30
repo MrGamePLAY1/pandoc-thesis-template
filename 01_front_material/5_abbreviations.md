@@ -1,0 +1,9 @@
+\chapter{List of Abbreviations}
+
+**ROI** --- Region of interest
+
+**NHTSA** --- National highway transportation safety administration
+
+**NSF** --- National Sleep Foundation
+
+**LKAS** --- Lane Keeping Assist System
