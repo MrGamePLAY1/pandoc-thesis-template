@@ -8,6 +8,10 @@ The core function behind lane assistive technology is to provide support to the 
 
 For the development of my project, I make use of the Unity Game Engine which is a cross-platform engine where the user can publish to a number of marketplaces, such as iOS, Google Playstore, PSN, or the Xbox Live marketplace. The ability to monetize an application is also possible but requires multiple licenses to do so. [@technologies]
 
+## Software Development Life Cycle
+
+This project follows SDLC
+
 ## Unity Game Engine
 
 Unity Game Engine was the version of control within this project. With having Unity multiple scenes could be created and gave the creator great control over all the possible parameters and acted as a great control since it was entirely editable, the engine makes great use of C# and C++ as programming languages to create scripts that make OOP (Object Orientated Programming) easier as everything within the engine supports the ability to attach scripts to it. 
@@ -57,7 +61,7 @@ The method *'textureSaved'* is first introduced here, it is created as a string.
 ![Start method](03_figures/methodology/Start_Screenshotter.png)
 
 
-within the screenshotter script, a method called **'textureSaced()'** was created. The function of this method was to take the screenshots taken and save them to a folder destination within the hierarchy of the system. It took the screenshots that were taken and encodes them to PNG which is a type of format that is visible on most operating systems. It increments the images in a starting order of 0 - *n*. N being the final screenshot taken. Within this method, all images are encoded and saved as bytes which are added to the file path. 
+within the screenshotter script, a method called **'textureSaved()'** was created. The function of this method was to take the screenshots taken and save them to a folder destination within the hierarchy of the system. It took the screenshots that were taken and encodes them to PNG which is a type of format that is visible on most operating systems. It increments the images in a starting order of 0 - *n*. N being the final screenshot taken. Within this method, all images are encoded and saved as bytes which are added to the file path. 
 
 ![textureSaved method](03_figures/methodology/textureSaved.png)
 
@@ -109,8 +113,10 @@ Pycharm Community Edition is a free open-sourced intelligent Python development 
 
 ### main.py
 
-main.py is a Python file that does the core on analysing the road to then find lane lines which could then be mapped onto a video file, created by a large number of images.  
+This Python file is the core of calculations and determination for identifying lane lines and then drawing them on to a live video. The file features a number of functions which will be discussed in detail below.
 
+**def read_images()**
+This method is responsible
 
 ## Summary
 
