@@ -41,14 +41,17 @@ A total of 7 C# scripts were created within Unity to develop this project. a det
 
 Screenshotter.cs was heavily used in the development of the lane assist technology project. This file takes screenshots every half second that passes in the game time, to do this a number of strings had to be created. Strings such as the file name, folder name, image number, filepath, and a format had to be specified. The image width was also specified within this area, a screenshot below demonstrates how these were created which were then filled in using the Unity Engine Interface.
 
-![Creating Screenshotter.cs](03_figures/methodology/Screenshotter_Script.png) <br>
+![Creating Screenshotter.cs](03_figures/methodology/Screenshotter_Script.png)
+
+......
+
 ![Unity Screenshotter Utilization](03_figures/methodology/Screenshotter_Unity.png)
 
 **void Start()** contains they key element of te screenshotting ability within the software. Start is called when the scene is started before any of the Update() methods. A float is declared within the Start() method called *'start'* this contained the time interveal for the first screenshot to start, which was every half second. The next float declared was the time for the next screenshot to be taken. This was again within a half second and this was labelled the *'screenshotTimer'*. 
 
 The method *'textureSaved'* is first introduced here, it is created as a string. The 3 declared variables were all then placed into a *'InvokeRepeating'* method which would invoke the variables everytime Start() was run. 
 
-![Start()](03_figures/methodology/Start_Screenshooter.png)
+![Start method](03_figures/methodology/Start_Screenshotter.png)
 
 ### WaypointManager
 
@@ -57,12 +60,18 @@ The use of Github which is a free open source project developed by Linus Torvald
 
 Through the development of the project, there were two main Github repositories which were where any effective working code was pushed too which was visible to the authors' supervisor for future examinations. One repository contained the Python code behind the lane assistant technology which examined the road for lane lines. This repository was call *LaneAssist*. 
 
-![LaneAssist Repository](03_figures/methodology/LaneAssist.png) <br>
+![LaneAssist Repository](03_figures/methodology/LaneAssist.png)
+
+.......
+
 ![Languages Breakdown](03_figures/methodology/Breakdown.png)
 
 The other repository which was created contained all the Unity-based files. This contains every element used to create the entire scene that was used for demonstration. It also contains all C# scripts created which were attached to the GameObjects. The name of this repository was *LaneAssist_Unity*.
 
-![LaneAssist_Unity Repository](03_figures/methodology/Unity.png) <br>
+![LaneAssist_Unity Repository](03_figures/methodology/Unity.png)
+
+........
+
 ![Unity Languages Breakdown](03_figures/methodology/Unity_Breakdown.png)
 
 ## Unity Nav Mesh Agent
