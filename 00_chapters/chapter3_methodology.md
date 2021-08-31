@@ -27,33 +27,44 @@ Unity Game Engine was the version of control within this project. With having Un
 
 A total of 7 C# scripts were created within Unity to develop this project. a detailed breakdown of all the scripts are entailed below:
 
-### ArrowNPCMovement
+### ArrowNPCMovement.cs
 
-### CarAI
+### CarAI.cs
 
-### CarAI2
+### CarAI2.cs
 
-### CarController
+### CarController.cs
 
-### CarMove
+### CarMove.cs
 
-### Screenshotter
+### Screenshotter.cs
 
-Screenshotter.cs was heavily used in the development of the lane assist technology project. This file takes screenshots every half second that passes in the game time, to do this a number of strings had to be created. Strings such as the file name, folder name, image number, filepath, and a format had to be specified. The image width was also specified within this area, a screenshot below demonstrates how these were created which were then filled in using the Unity Engine Interface.
+Screenshotter.cs was heavily used in the development of the lane assist technology project. This file takes screenshots of every half second that passes in the game time, to do this a number of strings had to be created. Strings such as the file name, folder name, image number, file path, and a format had to be specified. The image width was also specified within this area, a screenshot below demonstrates how these were created which were then filled in using the Unity Engine Interface.
 
 ![Creating Screenshotter.cs](03_figures/methodology/Screenshotter_Script.png)
 
-......
+
 
 ![Unity Screenshotter Utilization](03_figures/methodology/Screenshotter_Unity.png)
 
-**void Start()** contains they key element of te screenshotting ability within the software. Start is called when the scene is started before any of the Update() methods. A float is declared within the Start() method called *'start'* this contained the time interveal for the first screenshot to start, which was every half second. The next float declared was the time for the next screenshot to be taken. This was again within a half second and this was labelled the *'screenshotTimer'*. 
+**void Start()** contains the key element of the screenshotting ability within the software. The start method is called when the scene is started before any of the Update() methods. A float is declared within the Start() method called *'start'* this contained the time interval for the first screenshot to start, which was every half second. The next float declared was the time for the next screenshot to be taken. This was again within a half-second and this was labeled the *'screenshotTimer'*. 
 
-The method *'textureSaved'* is first introduced here, it is created as a string. The 3 declared variables were all then placed into a *'InvokeRepeating'* method which would invoke the variables everytime Start() was run. 
+The method *'textureSaved'* is first introduced here, it is created as a string. The 3 declared variables were all then placed into a *'InvokeRepeating'* method which would invoke the variables every time Start() was run. 
 
 ![Start method](03_figures/methodology/Start_Screenshotter.png)
 
-### WaypointManager
+
+within the screenshotter script, a method called **'textureSaced()'** was created. The function of this method was to take the screenshots taken and save them to a folder destination within the hierarchy of the system. It took the screenshots that were taken and encodes them to PNG which is a type of format that is visible on most operating systems. It increments the images in a starting order of 0 - *n*. N being the final screenshot taken. Within this method, all images are encoded and saved as bytes which are added to the file path. 
+
+![textureSaved method](03_figures/methodology/textureSaved.png)
+
+
+### WaypointManager.cs
+
+The waypoint manager script is a script directly interlinked with the navmesh path. This script takes in GameObjects which are considered to be waypoints, the script follows these waypoints(GameObjects) in a list order, for instance, 1-2-3-4 and so on. Once the script hits the last item in the list the script returns to the starting node. If there are no nodes added the script will return an error message to the user prompting them to add waypoints. This script is directly added to all car elements. 
+
+![Waypoint Manager](03_figures/methodology/waypoints.png)
+
 
 ## Github 
 The use of Github which is a free open source project developed by Linus Torvalds [@finley_2012], was heavily used as version control. This made tracking changes throughout the entire development of the project more manageable as it keeps track of every change made to any file.
@@ -62,7 +73,7 @@ Through the development of the project, there were two main Github repositories 
 
 ![LaneAssist Repository](03_figures/methodology/LaneAssist.png)
 
-.......
+
 
 ![Languages Breakdown](03_figures/methodology/Breakdown.png)
 
@@ -70,19 +81,21 @@ The other repository which was created contained all the Unity-based files. This
 
 ![LaneAssist_Unity Repository](03_figures/methodology/Unity.png)
 
-........
+
 
 ![Unity Languages Breakdown](03_figures/methodology/Unity_Breakdown.png)
 
 ## Unity Nav Mesh Agent
 
-The Unity navmesh agent is the agent which helps guide the vehicles in the scene around the test scenes. The process involves creating whhat is known as a *'navmesh'* with the aid of geometry level baking known as navmesh baking. When baking occurs in the scene all data related to terrains, paths and mesh renders is collected from all the GameObjects within the scene. Any static GameObjects which do not move such as obstackles or walls are then identified and labeleled accordingly in the navmesh agent. From this the 'walkable' area is discovered and mapped out in a geometric way.   
+The Unity navmesh agent is the agent which helps guide the vehicles in the scene around the test scenes. The process involves creating what is known as a *'navmesh'* with the aid of geometry level baking known as navmesh baking. When baking occurs in the scene all data related to terrains, paths and mesh render is collected from all the GameObjects within the scene. Any static GameObjects which do not move such as obstacles or walls are then identified and labeled accordingly in the navmesh agent. From this, the 'walkable' area is discovered and mapped out in a geometric way.   
 
 ![Path Creation](03_figures/methodology/NavMesh.jpg)
 
+
+
 ![Nav Mesh Agent Creation](03_figures/methodology/NavMesh_Agent.png)
 
-When the area is baked within the see it will be outlined in a blue colour as soon above this path is now walkable for the navmesh agent. Factors such as radius, agents height, step height and maximum slope should all be declared before baking. 
+When the area is baked within the see it will be outlined in a blue colour as soon as this path is now walkable for the navmesh agent. Factors such as radius, agents height, step height, and maximum slope should all be declared before baking. 
 
 ![Baking Settings](03_figures/methodology/Baking.png)
 
