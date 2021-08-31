@@ -25,7 +25,7 @@ So in summary, Git and Github are commercial (but free for students!) tools that
 
 - Unity Engine
 - Python 3.7 or above
-- PyCharm Community Edition 
+- PyCharm Community Edition 2021.2
 - Microsoft Visual Code Studio
 - Git
 

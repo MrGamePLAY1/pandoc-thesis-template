@@ -9,6 +9,7 @@ The core function behind lane assistive technology is to provide support to the 
 For the development of my project, I make use of the Unity Game Engine which is a cross-platform engine where the user can publish to a number of marketplaces, such as iOS, Google Playstore, PSN, or the Xbox Live marketplace. The ability to monetize an application is also possible but requires multiple licenses to do so. [@technologies]
 
 ## Unity Game Engine
+
 Unity Game Engine was the version of control within this project. With having Unity multiple scenes could be created and gave the creator great control over all the possible parameters and acted as a great control since it was entirely editable, the engine makes great use of C# and C++ as programming languages to create scripts that make OOP (Object Orientated Programming) easier as everything within the engine supports the ability to attach scripts to it. 
 
 ![Unity User Interface](03_figures/methodology/Unity_GUI.png)
@@ -25,13 +26,15 @@ Unity Game Engine was the version of control within this project. With having Un
 
 ## Unity Scripts
 
-A total of 7 C# scripts were created within Unity to develop this project. a detailed breakdown of all the scripts are entailed below:
+A total of 7 C# scripts were created within Unity to develop this project. a detailed breakdown of all the scripts that were used entailed below:
 
 ### ArrowNPCMovement.cs
 
-### CarAI.cs
+ArrowNPCMovement is a script that gets the navmesh agent component and waypoint manager and creates the objects. Once the objects were created the NPC (Non-Player Character) could head in the direction of the waypoints. Within this method, an update method is declared and this method is tasked to constantly calculate how far the NPC is to its waypoint and essentially apply the breaks as it gets closer. 
 
-### CarAI2.cs
+A method called *'HeadForNextWaypoint'* is also declared within this script, this method sets a target direction for the NPC to aim for and sets the direction is NPC needs to then go in. 
+
+![ArrowNPCMovement Script](03_figures/methodology/ArrowNPCMovement.png)
 
 ### CarController.cs
 
@@ -102,9 +105,11 @@ When the area is baked within the see it will be outlined in a blue colour as so
 
 ## Pycharm 
 
+Pycharm Community Edition is a free open-sourced intelligent Python development IDE that includes a code assistant, packages, debugging, and most importantly version control. The version control tab was the tab that allowed the user to directly publish their repository. 
+
 ### main.py
 
-blah blah blahhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+main.py is a Python file that does the core on analysing the road to then find lane lines which could then be mapped onto a video file, created by a large number of images.  
 
 
 ## Summary
