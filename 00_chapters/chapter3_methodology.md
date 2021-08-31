@@ -67,6 +67,17 @@ The other repository which was created contained all the Unity-based files. This
 
 ## Unity Nav Mesh Agent
 
+The Unity navmesh agent is the agent which helps guide the vehicles in the scene around the test scenes. The process involves creating whhat is known as a *'navmesh'* with the aid of geometry level baking known as navmesh baking. When baking occurs in the scene all data related to terrains, paths and mesh renders is collected from all the GameObjects within the scene. Any static GameObjects which do not move such as obstackles or walls are then identified and labeleled accordingly in the navmesh agent. From this the 'walkable' area is discovered and mapped out in a geometric way.   
+
+![Path Creation](03_figures/methodology/NavMesh.jpg)
+
+![Nav Mesh Agent Creation](03_figures/methodology/NavMesh_Agent.png)
+
+When the area is baked within the see it will be outlined in a blue colour as soon above this path is now walkable for the navmesh agent. Factors such as radius, agents height, step height and maximum slope should all be declared before baking. 
+
+![Baking Settings](03_figures/methodology/Baking.png)
+
+
 ## Pycharm 
 
 ### main.py
