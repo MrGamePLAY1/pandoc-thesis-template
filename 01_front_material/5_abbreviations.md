@@ -13,3 +13,5 @@
 **OOP** --- Object Orientated Programming
 
 **FOV** --- Field Of View
+
+**NPC** --- Non-Player Character
