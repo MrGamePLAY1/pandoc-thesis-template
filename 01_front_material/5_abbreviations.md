@@ -11,3 +11,5 @@
 **PSN** --- Play Station Network
 
 **OOP** --- Object Orientated Programming
+
+**FOV** --- Field Of View
