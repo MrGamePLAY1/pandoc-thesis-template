@@ -3,6 +3,7 @@
 ## Introduction
 
 This chapter is dedicated to all the different technologies within the project. It encompasses the tools and specifications used to run the software required such as Unity and PyCharm Community Edition effectively. Also, this includes the build specification for the given PC that ran the final application.
+
 ## Hardware
 
 * CPU - AMD Ryzen 7 2700X Eight-Core Processor 4.00 GHz. 
