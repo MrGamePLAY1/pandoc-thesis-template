@@ -1,6 +1,7 @@
 # Project Diary
 
 ## Introduction
+This chapter is dedicated to all the meetings held throughout the development of this project and what was discussed within the meetings.
 
 ## Discussions Held
 
@@ -132,4 +133,4 @@ Outcome:
 With more heavy assignments coming closer I explain to Gerome I am finding it hard to find it hard to fit everything and actively progress with my project. I further work on my project and send Gerome a document and what I hope to achieve by the demonstration date. 
 
 
-## Summary
+ADD MATTS MEETINGS
