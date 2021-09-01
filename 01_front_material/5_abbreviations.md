@@ -33,3 +33,5 @@
 **OS** --- Operating System
 
 **GPU** --- Graphical Processing Unit
+
+**AI** --- Artificial Inteligence 
