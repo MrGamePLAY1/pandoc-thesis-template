@@ -7,7 +7,6 @@ In recent years the number of cars on the road has been on a slow increase, due 
 According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase of fatalities compared to provisional Garda data collected for the year of 2019 [@RSA_2021].
  
  
- 
 ![Fatalities by year](03_figures/introduction/Road_Deaths.png)
  
 The (NHTSA) National Highway Transportation Safety Administration discovered that roughly 94% - 96% of all car-related crashes are down to some type of human error. Meanwhile, other studies suggest that that figure is somewhere around the 90% range. [@lc_2020]

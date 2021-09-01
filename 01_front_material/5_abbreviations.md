@@ -15,3 +15,11 @@
 **FOV** --- Field Of View
 
 **NPC** --- Non-Player Character
+
+**SDLC** --- Software Development Life Cycle
+
+**FPS** --- Frames Per Second
+
+**RGB** --- Red, Green, Blue
+
+**HSV** --- Hue, Saturation, Values

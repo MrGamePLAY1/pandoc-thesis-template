@@ -10,7 +10,15 @@ For the development of my project, I make use of the Unity Game Engine which is 
 
 ## Software Development Life Cycle
 
-This project follows SDLC
+Software development is described as the *'application of standard business practices to building software applications'*  [@SDLC]. The software development cycle follows several steps, 7 to be exact. Following these steps was key to the development of the project before you, as tasks were formed which could be broken down again into specifics. Once these tasks were discovered and taken note of it was time to identify and follow an SDLC model to follow. With a range of models that could be selected the author chose the model which best suited the criteria of their project.
+
+## Waterfall Methodology
+
+The chosen methodology for this project was the Waterfall approach, as it focuses on the project focuses on the progression of the previous step in order to progress and develop the next step to the project, and is known as a *'classic method of development'* [@SDLC]. One core benefit of using the waterfall method is that ensures a strong backbone for the development behind it and one drawback is that it reduces speed overall. It reduces overall development as the user may be stuck trying to develop a concept that just won't correctly work, which it needs to, in order to move forward. 
+
+The diagram of the methodology used in this project was obtained by *'smartsheet.com'*
+
+![Waterfall Methodology](03_figures/methodology/method.png)
 
 ## Unity Game Engine
 
@@ -113,10 +121,42 @@ Pycharm Community Edition is a free open-sourced intelligent Python development 
 
 ### main.py
 
-This Python file is the core of calculations and determination for identifying lane lines and then drawing them on to a live video. The file features a number of functions which will be discussed in detail below.
+This Python file is the core of calculations and determination for identifying lane lines and then drawing them onto a live video. The file features a number of core methods which will be discussed below.
 
 **def read_images()**
-This method is responsible
+This method is responsible for reading in all images which are contained within a folder that was brought over from Unity. Within the project hierarchy, the images that were used in the final pipeline of the project were separated into folders labeled 'Busy Town', 'Straight Road', 'Straight Vertical' and 'Wall Road'. These names of the folder represent what test section within Unity the screenshots came from. For example 'Straight Road' was a section of road where the road went perfectly straight and featured no obstacles which would stress test the system.  
+
+**def create_video()**
+This method creates the final video outputted for the lane detection algorithm to then examine. It adds all images discovered within a path identified with the codec of PNG and adds them in ascending order with a framerate of 5 to a video format of mp4. The final output is 'video.mp4' which has a framerate of 5fps. 
+
+![Video Creation](03_figures/methodology/vidOutput.png)
+
+**def image_grey(original_img)**
+This method aims to be more computational resourceful in the processing of images, since RGB images are bigger in size they would be more costly in performance when processing them, this is why within this method all images are converted to grey. This is done by using the OpenCV library which was heavily used within this part of the project. This method requires the image or images that the user would like to be processed. 
+
+**def image_canny(images)**
+The image canny method requires a set or single image and uses a famous algorithm called Canny edge detection to discover a set of harsh edges within a given image. The algorithm provided within the OpenCV Library requires parameters such as two individual threshold values a minimum and a maximum and set or single images. The output of what canny edge algorithm and the mathematical formula behind the algorithm can be seen below.
+
+Note: The mathematical formula was obtained from the official documentation page for OpenCV which is located at, https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
+
+![Gradient Detection](03_figures/methodology/math.png)
+
+![Sample Output From Project](03_figures/methodology/canny.png)
+
+**def identify_lines(images)**
+Identifying lines within a given image is one of the core functional components of the project. Preprocessing steps such as declaring an ROI should be done by this step and the image should be already pre-processed by canny edge detection to focus the search to a specific area. In this method HSV (Hue, Saturation, Values) values are targetted, Since the author knew that lane lines in their scene were a specific colour they targetted them with very specific HSV values with an upper and lower index of the same colour. 
+
+**def region_of_interest(images)**
+A region of interest or ROI is a very important concept behind identifying lane lines, this concept focuses on declaring a region the author planned to examine and narrows the focus on a specific site. Within this function, 4 points would map an area in space in a given image that would be masked as visible while areas outside the mask would be discarded. This function would return the ROI with the image canny as the canny image is recommended to be passed by this stage.
+
+![Sample ROI From Project](03_figures/methodology/ROI.png)
+
+**def hough_algorithm()**
+Hough transformation algorithm is a well-known algorithm to detect shape within an image, it is then displayed in a mathematical form. Within the author's hough_algorithm function the author makes heavy use of the probabilistic hough transform provided by the OpenCV library. The reason behind this is simply because it is a refined version of hough transformation as it takes in all points into consideration in a given set of images. The result is a cleaner less noisy output. 
+
+parameters require to be fulfilled to effectively make use of the hough lines algorithm. parameters such as a given set of lines detected within the ROI are passed, with 'rho' values which represent the resolution declared in pixel values. Another value passed is known as 'theta', which is the resolution value that is declared in radians. Finally, the final values which were 'maxLineGap' and 'minLineGap' which are related to the dimension of the road were input. The output from the hough transformation was in the form of an array which was later changed to a NumPy array.
+
+![Declaring HoughLinesP](03_figures/methodology/houghLinesP.png)
 
 ## Summary
 
