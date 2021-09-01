@@ -1,7 +1,7 @@
 
-# WebApplication.php
+# Main.py
 
-Code listing for `/src/WebApplication.php`. This class is the decision-making logic for the application to decide how to respond to the HTTP Request message received by the web application.
+Code listing for `main.py`. 
 
 ```python
 import glob
