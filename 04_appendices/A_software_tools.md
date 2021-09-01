@@ -1,8 +1,6 @@
 
 # Software required for development of lane assist project\label{appendix_software}
 
-## Don't confuse different software tools
-
 Please do not confuse the following:
 
 - Git and Github

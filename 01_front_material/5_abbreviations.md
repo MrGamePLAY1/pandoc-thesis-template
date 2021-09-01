@@ -23,3 +23,13 @@
 **RGB** --- Red, Green, Blue
 
 **HSV** --- Hue, Saturation, Values
+
+**CPU** --- Central Processing Unit 
+
+**RAM** --- Random Access Memory
+
+**GB** --- Giga Bytes
+
+**OS** --- Operating System
+
+**GPU** --- Graphical Processing Unit

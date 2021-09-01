@@ -6,4 +6,4 @@ I would also like to thank all the lecturers throughout my four years at TU Dubl
 
 I owe deep gratitude to my family and friends which had incredible patience and inspired me to do the best I could do with my given project. 
 
-It is an absolute privilege to thank my girlfriend Rebecca O'Rourke and the O'Rourke household for their constant encouragement and confidence throughout the research and development of my project.
+It is an absolute privilege to thank my partner Rebecca O'Rourke and the O'Rourke household for their constant encouragement and confidence throughout the research and development of my project.
