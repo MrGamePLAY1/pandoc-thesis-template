@@ -31,7 +31,7 @@ jobs:
         04_appendices/0_appendices.md
         04_appendices/A_software_tools.md
         04_appendices/C_webapplication.md
-        04_appendices/diary.md
+        04_appendices/D_diary.md
         break_____________________        
         05_references/references.md
     steps:
