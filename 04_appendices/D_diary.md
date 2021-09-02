@@ -133,4 +133,132 @@ Outcome:
 With more heavy assignments coming closer I explain to Gerome I am finding it hard to find it hard to fit everything and actively progress with my project. I further work on my project and send Gerome a document and what I hope to achieve by the demonstration date. 
 
 
-ADD MATTS MEETINGS
+08/02/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Updated Matt on the project and what I was planning on doing, got great feedback in relation to paths the project could go.
+
+
+15/02/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Updated Matt on progress was tasked to narrow my focus.
+
+
+8/03/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Updated Matt on progress. Spoke about the potential use of Unity Engine for testing.
+
+
+22/03/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Updated Matt any progress made, was given instructions on to develop a scene in Unity for virtual testing. 
+
+
+05/05/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Demonstrated my scene and talked about what I could potentially do.
+
+18/05/2021
+
+
+Meeting commenced with Matt Smith.
+
+
+Outcome:
+
+
+Talked about core functionality using the virtual enviroment for testing, was tasked to develop my system around Unity
+
+
+25/05/2021
+
+
+Exchanged emails with Matt
+
+
+Outcome:
+
+
+Updated Matt any progress made, applied for a deferal since I was not happy with the progress of the project.
+
+
+09/06/2021
+
+
+Exchanged emails with Matt telling him I got my deferal. 
+
+
+Outcome:
+
+
+Updated Matt any progress made which was minimum as I was extremely stuck on development. 
+
+
+20/07/2021
+
+
+Had a two hour session dicussing paths to go down to develop the project
+
+
+Outcome:
+
+
+Went to development for 1.5 months
+
+
+20/08/2021
+
+
+Contacted Matt delivered news of a working project
+
+
+Outcome:
+
+
+Was notified my submission was due soon, wrote the thesis and tried to develop more.
+
+
+1/09/2021
+
+
+Submitted thesis.
+
+
+6/09/2021
+
+
+Demonstrated project.

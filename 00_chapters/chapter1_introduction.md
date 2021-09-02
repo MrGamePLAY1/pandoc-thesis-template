@@ -26,7 +26,7 @@ Create a set of virtual driving environments as a test set that can be evaluated
 
 ### Objective 3:
 
-Create a virtual car and virtual camera, which records images in every half second, which would be mounted in the windscreen of the car. 
+Create a virtual car and virtual camera, which records images every half second, which would be mounted in the windscreen of the car. 
 
 ### Objective 4:
 
@@ -41,9 +41,35 @@ To create a real-time communication system between the car and a virtual setting
 To use the system components to test the lane assist system developed in this project against one or more 3rd-party lane assistive systems. 
 
 
-## Summary
-
 This report described the approach taken to attempt the above objectives and concludes with an evaluation of how well each has been achieved, and recommendations for future work upon the project to complete all goals. 
+
+## Structure of Report
+
+The remainder of this report is structured as follows:
+
+### Chapter 3: Literature Review: 
+
+This chapter reviews the background and motivation behind this project, it also investigated current technologies related to the project.
+
+### Chapter 4: Methodology:
+
+This chapter talks about the methodology approach behind the project to help solve the problem statement, It discusses the software development life cycle and method was used when developing the project. 
+
+### Chapter 5: System Requirements and Specifications:
+
+This chapter is about the specific system hardware of the given development PC. It talks about the technologies used also. 
+
+### Chapter 6: System Design
+
+In this chapter the author talks about how the system works in detail, it discusses the pipeline from Unity to lane line analysis within PyCharm.
+
+### Chapter 7: Results:
+
+The results chapter talks about the final results achieved from the project. The author discusses the current state of the project and evaluates where the project could improve upon user testing. 
+
+### Chapter 8: Future Work and Conclusions:
+
+Chapter 8 discusses what the author would do if further developing the project and what aspects of the project they would develop and talks about future implementations. 
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=

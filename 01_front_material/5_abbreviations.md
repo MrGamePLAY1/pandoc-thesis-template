@@ -35,3 +35,9 @@
 **GPU** --- Graphical Processing Unit
 
 **AI** --- Artificial Inteligence 
+
+**IDE** --- Integrated Development Enviroment
+
+**ML** -- Machine Learning
+
+**UI** -- User Interface

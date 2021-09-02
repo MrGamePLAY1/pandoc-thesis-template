@@ -1,5 +1,5 @@
 
-# Software required for development of lane assist project\label{appendix_software}
+# Software required for the development of lane assist project\label{appendix_software}
 
 Please do not confuse the following:
 
@@ -8,7 +8,7 @@ Please do not confuse the following:
 
 Here is a short description of each:
 
-- Git: A version control system - can run locally or on networked computer. There are several website that support Git projects, including:
+- Git: A version control system - can run locally or on a networked computer. There are several websites that support Git projects, including:
 
     - Github (perhaps the most well known)
     - Gitlab

@@ -1,7 +1,11 @@
 # Literature Review
 ## Introduction 
 
-The topic that I will be researching into is Lane Assistant Technologies and developments around that area of research, how people in the past have implemented methods of adding lane assist to their vehicles. This review will be based upon past papers about advancing technologies in this sector. The reason for writing this review is to get a better personal understanding about the current available understanding about the available technologies and how they were built and identifying current problems in the current technology that could be potentially phased out with future builds of the technology and how it could be improved upon. 
+The topic that I will be researching is Lane Assistant Technologies and developments around that area of research, how people in the past have implemented methods of adding lane assist to their vehicles. This review will be based upon past papers about advancing technologies in this sector. The reason for writing this review is to get a better personal understanding about the current available understanding about the available technologies and how they were built and identifying current problems in the current technology that could be potentially phased out with future builds of the technology and how it could be improved upon.  This chapter also reviews road safety with the first lane assist technologies available. 
+
+## Why use OpenCV? 
+
+The reason behind the use of OpenCV for this project is that it has a huge library of functions that are mainly advertised for real-time computer vision. Since the author's project is purely computer vision and how a computer can interpret road network and if it can suggest an ideal path to navigate it safely, which is a building block to self-driving vehicles. Also, any search for successful approaches to computer vision processing throws up references to Open CV. Therefore this software library was quickly identified as the most appropriate technology to adopt for the lane assist components of this project.
 
 ## Main Research Questions
 - What is OpenCV and what can it do? 
@@ -11,9 +15,9 @@ The topic that I will be researching into is Lane Assistant Technologies and dev
 
 ### What is OpenCV and what can it do?
 
-OpenCV is a library filled of programming functions that are aim at this idea of real-time computer vision, originally developed by Intel in June of the year 1999 and later to be supported by a robotics company Willow Garage and then Itseez, which was then acquired by Intel.
+OpenCV is a library filled of programming functions that are aimed at this idea of real-time computer vision, originally developed by Intel in June of the year 1999 and later to be supported by a robotics company Willow Garage and then Itseez, which was then acquired by Intel.
 
-With the ability to solve small computer problems like “ray tracing” which is a method to accurately depict shadows and reflections from the real world and replicate them into a digital world, the uses for OpenCV became endless. The goal which was set by Intel back in 1999 was to create a software that contained critical optimized code which was portable the user which they hoped which would be free to use as the project was “Open Source” which meant anyone who wanted to add to the project could.
+With the ability to solve small computer problems like “ray tracing” which is a method to accurately depict shadows and reflections from the real world and replicate them into a digital world, the uses for OpenCV became endless. The goal which was set by Intel back in 1999 was to create a software that contained critical optimized code which was portable for the user which they hoped would be free to use as the project was “Open Source” which meant anyone who wanted to add to the project could.
 
 Within a few months of its launch, OpenCV gained more and more support within the programming community and programmers were adding to its usability adding more than 2500 optimized algorithms. With having more than 18 million downloads it has an incredible community backing it. With having such a big community behind it, OpenCV is perfect for novice C++ programmers looking to learn or C++ professionals the library has something to offer for all.
 
@@ -41,7 +45,7 @@ for identifying lanes, this algorithm was suitable for fast lane detection in mu
 
 Another algorithm discussed in the same paper was discovered with being able to detect lanes and
 vehicles simultaneously. V. Q. Nguyen proposed an approach using a mixture of a lane detection
-algorithm and vehicle detection algorithm. This algorithm was useful in multi-lane situations. [@QGal17]
+algorithm and a vehicle detection algorithm. This algorithm was useful in multi-lane situations. [@QGal17]
 
 In all the papers examined, an ROI is a common thing discussed, this is a Region Of Interest (ROI)
 which is identified. This is the area of the video that is being examined by the software to identify
@@ -69,7 +73,7 @@ bright future for the advancing technology.
 
 ### Can this technology be retrofitted to any vehicle?
 
-In all the papers that were examined, they all show different ways to
+In all the papers that were examined, all show different ways to
 achieving the goal of developing a lane departure system. In many different ways, this was
 achieved, in the case of one paper a Raspberry Pi device coupled with a Pi Camera was used. This
 was low budget but effective means of developing a lane departure system. [@RJa18]
@@ -81,7 +85,7 @@ vehicle, which can be retrofitted to a vehicle commonly known as parking sensors
 None of the papers reviewed talk about one specific vehicle so, the answer to this question is yes,
 the technology can be retrofitted to any vehicle as long as it has a clear view of the road the vehicle is directed towards. 
 
-### Will complex shadows, snow or wet roads hinder detecting road markings?
+### Will complex shadows, snow, or wet roads hinder detecting road markings?
 
 As seen from the papers it is evident that a number of things can disrupt the functionality of the
 software, from the gradient of the road to having no markings identifying the road, to harsh weather and
@@ -99,7 +103,7 @@ The FIR filter is used to help reduce jitter on the indicators on the left and r
 
 In recent years the number of cars on the road has been on a slow increase, due to more affordable ways of manufacturing them. With the increase of vehicles on the road car-related incidents are on the rise also. 
  
-According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase of fatalities compared to provisional Garda data collected for the year of 2019 [@RSA_2021].
+According to a study conducted by the RSA based in Ireland during the period of January - December 2020 there were a total of 137 fatal collisions which resulted in 148 on Irish roads. Which turns out to be a 6% increase in fatalities compared to provisional Garda data collected for the year 2019 [@RSA_2021].
  
  
 ![Fatalities by year](03_figures/introduction/Road_Deaths.png)
@@ -155,7 +159,7 @@ Another issue known by the current LKAS systems is the fact that if there are po
 
 To conclude this review of five different papers relating to the subject of lane assistive technologies
 it was possible to develop a greater understanding of the subject as a whole. Reviewing the problems faced in
-previous papers will helped identify future challenges to be faced. The papers also provide potential means to avoid and solve these problems
+previous papers helped identify future challenges to be faced. The papers also provide potential means to avoid and solve these problems
 that they may encounter when developing my project and will serve dearly.
 
 The knowledge from reading past papers will prove of great importance in the development of the

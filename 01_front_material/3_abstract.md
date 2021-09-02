@@ -10,8 +10,8 @@ Key features in the development of this project include heavy use of 'Unity Game
 
 As stated above the project consists of two main components:
 
-(a) A Unity scene with multiple test scenarios which were designed for a vehicle such as a car to navigate with the aid of a navmesh AI agent. When the car navigates each test scene it gathers a number of images in the form of screenshots wohich would be used in the final pipeline of the project. 
+(a) A Unity scene with multiple test scenarios which were designed for a vehicle such as a car to navigate with the aid of a navmesh AI agent. When the car navigates each test scene it gathers a number of images in the form of screenshots that would be used in the final pipeline of the project. 
 
-(b) The other component to the project features Python code specifically designed to process the screenshots taken within the Unity test scenes and display lane lines that the software could clearly identify, this would give the ability to allow a car to self navigate a scene if it could clearly identify the lanes accurately. The software also aims to display suggestions to the user which would correct the users position on the road.
+(b) The other component to the project features Python code specifically designed to process the screenshots taken within the Unity test scenes and display lane lines that the software could clearly identify, this would give the ability to allow a car to self navigate a scene if it could clearly identify the lanes accurately. The software also aims to display suggestions to the user which would correct the user's position on the road.
 
 The project has proved successful but needs more development in communications between the two systems. 
