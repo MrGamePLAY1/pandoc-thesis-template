@@ -14,15 +14,15 @@ Lanes can be correctly identified within the given video made from the images pa
 
 Output:
 
-The algorithm can process the images it is given perfectly until it hits the end, where no lane is continued. Although there is a 10% +- deviation on where it thinks the lanes are. Overall I would say it has 95% accuracy
+The algorithm can process the images it is given perfectly until it hits the end, where no lane is continued. Although there is a 10% + - deviation on where it thinks the lanes are. Overall I would say it has 95% accuracy
 
-![100% accurate](03_figures/Testing_python/1.png)
-
-
-![95% accurate](03_figures/Testing_python/2.png)
+![100% accurate](03_figures/Testing_python/straight_1.png)
 
 
-![90% accurate](03_figures/Testing_python/3.png)
+![95% accurate](03_figures/Testing_python/straight_2.png)
+
+
+![90% accurate](03_figures/Testing_python/straight_3.png)
 
 
 ### Test 2: Image of Curved Road
